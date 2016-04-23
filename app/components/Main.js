@@ -5,9 +5,7 @@ var MainWrapper = require('./MainWrapper')
 var AboutMe = require('./AboutMe')
 var Projects = require('./Projects')
 var ProjectContainer = require('./ProjectContainer')
-var Skills = require('./Skills')
 var Footer = require('./Footer')
-var Education = require('./Education')
 
 var Main = React.createClass({
   render: function() {
