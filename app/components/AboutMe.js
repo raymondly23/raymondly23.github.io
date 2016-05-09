@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className="center" style={styles.page}>
       <p>Born and raised in Sacramento, CA</p>
-      <img src="http://i.imgur.com/oQGyR06.png" style={styles.code}/>
+      <img src="http://i.imgur.com/fG1JOZ6.png" style={styles.code}/>
       <p>Aspiring to be a Full Stack Web Developer</p>
       <p>Passionate in writing clean and functional code</p>
         <div style={styles.stack}>
