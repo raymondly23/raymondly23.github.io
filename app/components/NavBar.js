@@ -28,7 +28,7 @@ var NavBar = React.createClass({
     scroll.scrollTo(700);
   },  
   scrollToProjects: function() {
-    scroll.scrollTo(2000);
+    scroll.scrollTo(1600);
   },  
   render: function() {
   return (

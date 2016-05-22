@@ -10,9 +10,9 @@ var Footer = require('./Footer')
 var Main = React.createClass({
   render: function() {
   var project = [{
-    img: '',
-    description: 'In progess...',
-    link: '#'
+    img: 'http://i.imgur.com/v15aH6l.png?1',
+    description: 'Built with jQuery',
+    link: 'http://raymondly23.github.io/AddGame'
   }, {
     img: '',
     description: 'In progess...',
