@@ -1,7 +1,7 @@
-var React = require('react')
-var styles = require('../styles')
+import React from 'react';
+import styles from '../styles'
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <div className="center" style={styles.page}>
       <p>Born and raised in Sacramento, CA</p>
@@ -18,4 +18,4 @@ function AboutMe() {
   )
 }
 
-module.exports = AboutMe
+export default AboutMe

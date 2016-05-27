@@ -1,7 +1,7 @@
-var React = require('react')
-var styles = require('../styles')
+import React from 'react'
+import styles from '../styles'
 
-function Projects(props) {
+const Projects = (props) => {
   return (
         <a href={props.link}>
         <div className="col s4">
@@ -19,4 +19,4 @@ function Projects(props) {
   )
 }
 
-module.exports = Projects
+export default Projects

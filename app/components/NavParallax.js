@@ -1,15 +1,11 @@
-var React = require('react')
-var styles = require('../styles')
-var NavBar = require('./NavBar')
+import React from 'react'
+import styles from '../styles'
+import NavBar from './NavBar'
 
-$(document).ready(function(){
-  $('.parallax').parallax();
-});
-
-function NavParallax() {
+const NavParallax = (props) => {
   return (
         <div className='parallax-container' style={styles.NavParallax}>
-          <NavBar/>
+          <NavBar scrollToBottom={props.scrollToBottom} scrollToAboutMe={props.scrollToAboutMe} scrollToProjects={props.scrollToProjects}/>
           <div className='center' style={styles.circleContainer}>
             <img src="http://i.imgur.com/J4TqNf2.jpg" style={styles.circle}/>
             <h3 style={styles.parallaxText}>Hi, My Name is Raymond Ly</h3>
@@ -22,4 +18,4 @@ function NavParallax() {
     )
 }
 
-module.exports = NavParallax
+export default NavParallax

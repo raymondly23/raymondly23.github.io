@@ -1,14 +1,14 @@
-var React = require('react')
-var styles = require('../styles')
+import React from 'react'
+import styles from '../styles'
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="page-footer">
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
             <h5 className="white-text">Thank you for taking the time to go through my page</h5>
-            <p className="grey-text text-lighten-4">If you'd like you work with me, contact me via email at raymondly23@gmail.com</p>
+            <p className="grey-text text-lighten-4">If you would like you work with me, contact me via email at raymondly23@gmail.com</p>
           </div>
           <div className="col l4 offset-l2 s12">
             <h5 className="white-text">Connect with me!</h5>
@@ -27,4 +27,4 @@ function Footer() {
   )
 }
 
-module.exports = Footer
+export default Footer

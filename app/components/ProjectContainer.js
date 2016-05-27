@@ -1,7 +1,7 @@
-var React = require('react')
-var styles = require('../styles')
+import React from 'react'
+import styles from '../styles'
 
-function ProjectContainer(props) {
+const ProjectContainer = (props) => {
   return (
     <div className='row center'>
       <h1>Projects</h1>
@@ -11,4 +11,4 @@ function ProjectContainer(props) {
   )
 }
 
-module.exports = ProjectContainer
+export default ProjectContainer

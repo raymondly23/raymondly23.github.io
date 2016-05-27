@@ -1,11 +1,7 @@
-var React = require('react')
-var styles = require('../styles')
+import React from 'react'
+import styles from '../styles'
 
-$(document).ready(function(){
-  $('.parallax').parallax();
-});
-
-function Parallax() {
+const Parallax = () => {
   return (
         <div className='parallax-container' style={styles.parallax}>
             <div className='row'>
@@ -25,4 +21,4 @@ function Parallax() {
     )
 }
 
-module.exports = Parallax
+export default Parallax
