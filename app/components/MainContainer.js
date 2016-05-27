@@ -29,9 +29,9 @@ class Container extends React.Component {
 
   render() {
     const project = [{
-    img: 'http://i.imgur.com/v15aH6l.png?1',
-    description: 'Built with jQuery',
-    link: 'http://raymondly23.github.io/AddGame'
+    img: '',
+    description: '',
+    link: ''
   }, {
     img: '',
     description: 'In progess...',
