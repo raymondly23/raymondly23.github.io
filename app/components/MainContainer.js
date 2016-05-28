@@ -30,8 +30,8 @@ class Container extends React.Component {
   render() {
     const project = [{
     img: '',
-    description: '',
-    link: ''
+    description: 'In progess...',
+    link: '#'
   }, {
     img: '',
     description: 'In progess...',
